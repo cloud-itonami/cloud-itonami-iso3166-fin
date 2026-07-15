@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "fin.limited-liability-companies-act-2006"
+           :title "Limited Liability Companies Act (Osakeyhtiölaki)"
+           :jurisdiction "FIN"
+           :kind :law
+           :law-number "624/2006"
+           :url "https://www.finlex.fi/en/legislation/translations/2006/eng/624"
+           :url-provenance :official-finlex-reference-translation
+           :enacted-date "2006-07-21"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "fin.data-protection-act-2018"
+           :title "Data Protection Act (Tietosuojalaki)"
+           :jurisdiction "FIN"
+           :kind :law
+           :law-number "1050/2018"
+           :url "https://www.finlex.fi/en/legislation/translations/2018/eng/1050"
+           :url-provenance :official-finlex-reference-translation
+           :enacted-date "2018-12-05"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "fin.employment-contracts-act-2001"
+           :title "Employment Contracts Act (Työsopimuslaki)"
+           :jurisdiction "FIN"
+           :kind :law
+           :law-number "55/2001"
+           :url "https://www.finlex.fi/en/legislation/translations/2001/eng/55"
+           :url-provenance :official-finlex-reference-translation
+           :enacted-date "2001-01-26"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]

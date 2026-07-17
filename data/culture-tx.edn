@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Karelian_pasty", :id "fin.dish.karelian-pasty", :kind :dish, :name-local "Karjalanpiirakka", :country "FIN", :retrieved-at "2026-07-17", :summary "Traditional Finnish pasty originating from Karelia, with a thin rye crust typically filled with rice or potato; holds EU traditional speciality guaranteed (TSG) status since 2003.", :name "Karelian pasty", :url-provenance :wikipedia-en}
+#:culture{:id "fin.dish.kalakukko", :name "Kalakukko", :country "FIN", :kind :dish, :summary "Traditional Finnish savoury pie of fish baked inside rye bread, from the Savonia region and particularly popular in Kuopio; obtained EU TSG status in 2002.", :url "https://en.wikipedia.org/wiki/Kalakukko", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fin.dish.mammi", :name "Mämmi", :country "FIN", :kind :dish, :summary "Traditional Finnish dessert eaten around Easter, part of Finnish culinary tradition dating back centuries.", :url "https://en.wikipedia.org/wiki/M%C3%A4mmi", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fin.dish.ruisleipa", :name "Ruisleipä", :country "FIN", :kind :dish, :summary "Finnish rye bread, the most popular type of bread in Finland, holding the status of national food as determined by a 2017 vote.", :url "https://en.wikipedia.org/wiki/Ruisleip%C3%A4", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fin.beverage.sima", :name "Sima", :country "FIN", :kind :beverage, :summary "Finnish fermented low-alcohol drink traditionally made from honey and water, a seasonal drink strongly associated with the Vappu spring festival.", :url "https://en.wikipedia.org/wiki/Sima_(mead)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "fin.craft.puukko", :name "Puukko", :country "FIN", :kind :craft, :summary "Small traditional Finnish general-purpose belt knife with a single curved cutting edge, a significant symbol in Finnish national heritage.", :url "https://en.wikipedia.org/wiki/Puukko", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Walpurgis_Night", :id "fin.festival.vappu", :kind :festival, :name-local "Vappu", :country "FIN", :retrieved-at "2026-07-17", :summary "One of Finland's four major holidays, celebrated 30 April to 1 May with the biggest carnival-style festival in Finland's cities, sima drinking and student cap traditions.", :name "Vappu (Walpurgis Night)", :url-provenance :wikipedia-en}
+#:culture{:id "fin.heritage.suomenlinna", :name "Suomenlinna", :country "FIN", :kind :heritage, :summary "Sea fortress composed of eight islands near Helsinki, Finland, a UNESCO World Heritage Site since 1991.", :url "https://en.wikipedia.org/wiki/Suomenlinna", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]

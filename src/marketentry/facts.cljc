@@ -14,13 +14,7 @@
           :rep-provenance "https://www.hankintailmoitukset.fi/"
           :corporate-number-owner-authority "PRH / Tax Administration"
           :corporate-number-legal-basis "Y-tunnus (business ID)"
-          :corporate-number-provenance "https://www.prh.fi/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "SWE" {:name "Sweden" :owner-authority "UHMY" :legal-basis "LOU" :national-spec "e-Avrop" :provenance "https://www.upphandlingsmyndigheten.se/"
-          :required-evidence ["Org.nr record" "e-procurement registration" "Bolagsverket extract" "Authorized-representative record"]}
-   "EST" {:name "Estonia" :owner-authority "Riigihangete register" :legal-basis "RHS" :national-spec "RHR" :provenance "https://riigihanked.riik.ee/"
-          :required-evidence ["Registry code record" "RHR registration" "Äriregister extract" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.prh.fi/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
